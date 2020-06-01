@@ -58,36 +58,42 @@
         tools:ignore="MissingConstraints">
 
         <ToggleButton
-            android:id="@+id/toggleButton3"
+            android:id="@+id/mensLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="onMensClicked"
             android:text="Mens"
             android:textColor="@color/colorAccent"
             android:textOff="Mens"
-            android:textOn="Mens" />
+            android:textOn="Mens"
+            tools:ignore="OnClick" />
 
         <ToggleButton
-            android:id="@+id/toggleButton5"
+            android:id="@+id/womenLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="onWomenBtnCliked"
             android:text="ToggleButton"
             android:textColor="@color/colorAccent"
             android:textOff="Womens"
-            android:textOn="Womens" />
+            android:textOn="Womens"
+            tools:ignore="OnClick" />
 
         <ToggleButton
-            android:id="@+id/toggleButton6"
+            android:id="@+id/coedLeagueBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/swoosh_toggle"
+            android:onClick="onCoedClicked"
             android:text="Co-Ed"
             android:textColor="@color/colorAccent"
             android:textOff="Co-Ed"
-            android:textOn="Co-Ed" />
+            android:textOn="Co-Ed"
+            tools:ignore="OnClick" />
     </LinearLayout>
 
     <Button
