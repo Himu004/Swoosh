@@ -1,8 +1,7 @@
-package com.example.swoosh
+package com.example.swoosh.Controller
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.util.Log
 
 open class BaseActivity : AppCompatActivity() {
