@@ -69,8 +69,7 @@
             android:text="BEGINNER"
             android:textColor="@color/colorAccent"
             android:textOff="BEGINNER"
-            android:textOn="BEGINNER"
-            tools:ignore="OnClick" />
+            android:textOn="BEGINNER" />
 
         <ToggleButton
             android:id="@+id/ballerSkillBtn"
@@ -84,8 +83,7 @@
             android:text="BALLER"
             android:textColor="@color/colorAccent"
             android:textOff="BALLER"
-            android:textOn="BALLER"
-            tools:ignore="OnClick" />
+            android:textOn="BALLER" />
     </LinearLayout>
 
     <Button
